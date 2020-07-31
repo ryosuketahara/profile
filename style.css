@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  font-size: 20px;
+  font-family: monospace monospace 'Courier New', Courier, monospace;
+  background-image: url(photo2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+  .ore{
+    color: rgba(246, 246, 246, 0.6);
+    position: relative;
+    top: 240px;
+    left: 160px;
+  }
+.a{
+  position: relative;
+  color: aliceblue;
+}
+.a img{
+  width: 100%;
+  height: 100%;
+}
+.a p{
+  position: absolute;
+}
+a{
+  text-decoration:none;
+  color: aliceblue;
+}
+.ziko1{
+  position: relative;
+  top: 400px;
+  left: 160px;
+  border: 2px solid white;
+  border-radius: 5px  ;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+.ziko2{
+  position: relative;
+  top: 420px;
+  left: 160px;
+  border: 2px solid white;
+  border-radius: 5px  ;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  user-select: none;
+}
+.ziko3{
+  position: relative;
+  top: 440px;
+  left: 160px;
+  border: 2px solid white;
+  border-radius: 5px  ;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  user-select: none;
+}
+#mask{
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#modal{
+  background: rgb(104, 98, 98,0.8);
+  width: 900px;
+  height: 600px;
+  /* padding: 20px; */
+  border-radius: 4px;
+  position: relative;
+  top: -100px;
+  left: 260px;
+  transition: 0.6s;
+}
+#modal2{
+  background: rgb(104, 98, 98,0.8);
+  width: 900px;
+  height: 600px;
+  /* padding: 20px; */
+  border-radius: 4px;
+  position: relative;
+  top: -700px;
+  left: 260px;
+  transition: 0.6s;
+}
+#close,#close2{
+  position: relative;
+  top: 480px;
+  cursor: pointer;
+  width: 160px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 3px 0;
+  margin: 16px auto 0;
+  user-select: none;
+}
+#kotoba,#kotoba2{
+  position: relative;
+  top: 280px;
+  left: 50px;
+  color: rgba(246, 246, 246, 0.6);
+}
+#mask.hid{
+  display: none;
+}
+#modal.hid{
+  transform: translate(0,-900px);
+}
+#modal2.hid{
+  transform: translate(0,-2000px);
+}
+
+
+
